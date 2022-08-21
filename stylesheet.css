@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+body {
+    background-image: url('backgroundimage.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.menu {
+    position: sticky;
+    top: 0;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.menu a {
+    border: 1px solid transparent;
+    transition: transform 0.5s ease-in-out;
+    width: 30%;
+    margin: 5px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    box-shadow: 5px 5px 5px none;
+}
+
+a:hover {
+    transform: scale(1.1);
+    /* transform: translateZ(0); */
+    box-shadow: 5px 5px 5px black;
+    border: 1px solid white;
+}
+
+.introduction {
+    margin: 20px;
+}
