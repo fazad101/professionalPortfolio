@@ -1,11 +1,10 @@
 * {
     padding: 0;
     margin: 0;
-    color: white;
 }
 
 body {
-    background-image: url('backgroundimage.webp');
+    background-image: url('computercoding.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -13,7 +12,7 @@ body {
 .menu {
     position: sticky;
     top: 0;
-
+    background-color: black;
     display: flex;
     justify-content: space-evenly;
 }
@@ -21,22 +20,26 @@ body {
 .menu a {
     border: 1px solid transparent;
     transition: transform 0.5s ease-in-out;
-    width: 30%;
+    width: 20%;
     margin: 5px;
-    color: black;
+    color: white;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    box-shadow: 5px 5px 5px none;
+    /* box-shadow: 5px 5px 5px none; */
 }
 
 a:hover {
     transform: scale(1.1);
     /* transform: translateZ(0); */
-    box-shadow: 5px 5px 5px black;
+    /* box-shadow: 5px 5px 5px white; */
     border: 1px solid white;
 }
 
 .introduction {
     margin: 20px;
+}
+
+#experience, #education, #projects, #contact {
+    margin: 10px;
 }
