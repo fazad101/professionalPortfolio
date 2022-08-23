@@ -18,7 +18,7 @@ body {
 }
 
 .menu a {
-    border: 1px solid transparent;
+    border: 2px solid transparent;
     transition: transform 0.5s ease-in-out;
     width: 20%;
     margin: 5px;
@@ -29,17 +29,47 @@ body {
     /* box-shadow: 5px 5px 5px none; */
 }
 
-a:hover {
+.menu a:hover {
     transform: scale(1.1);
     /* transform: translateZ(0); */
     /* box-shadow: 5px 5px 5px white; */
-    border: 1px solid white;
+    border: 2px solid white;
 }
 
 .introduction {
     margin: 20px;
 }
 
-#experience, #education, #projects, #contact {
+h1 {
+    padding: 10px 10px 5px 10px;
+}
+
+p, h3 {
+    padding: 0px 0px 0px 10px;
+}
+
+/* Style contact information page */
+#contact {
     margin: 10px;
+}
+
+#contact h3 {
+    padding: 0px;
+}
+
+/* #email p {
+    font-size: ;
+} */
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+img {
+    width: 300px;
+}
+
+#email, #linkedin, #github {
+    margin: 0px 0px 30px 10px;
 }
