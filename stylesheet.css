@@ -49,17 +49,6 @@ p, h3 {
 }
 
 /* Style contact information page */
-#contact {
-    margin: 10px;
-}
-
-#contact h3 {
-    padding: 0px;
-}
-
-/* #email p {
-    font-size: ;
-} */
 
 a {
     color: inherit;
@@ -67,9 +56,43 @@ a {
 }
 
 img {
+    display: inline-block;
     width: 300px;
+    /* height: 200px; */
 }
 
-#email, #linkedin, #github {
-    margin: 0px 0px 30px 10px;
+#email {
+    background-color: #3b82f4;
+}
+
+#email h1 {
+    bottom: 80px;
+    left: 80px;
+}
+
+#linkedin {
+    background-color: #009687;
+}
+
+#linkedin h1 {
+    bottom: 100px;
+    left: 80px;
+}
+
+#github {
+    background-color: #f7f7f7;
+}
+
+#github h1 {
+    bottom: 130px;
+    left: 85px;
+}
+
+#contact h1 {
+    display: inline-block;
+}
+
+#contact h1 {  
+    font-size: 30px;
+    position: relative;
 }
